@@ -1,5 +1,5 @@
 # Generate_Trace_GIF
-A GUI for creating GIFs that trace along user input data
+A GUI for creating GIFs that trace along user input data. Written by Evan Telford (ejt2133@columbia.edu).
 
 # To run the included python file, the following packages are required (links to anaconda):
 * glob (https://anaconda.org/conda-forge/glob2)
@@ -16,13 +16,13 @@ A GUI for creating GIFs that trace along user input data
 
 # List of GUI functions:
 1.	Load Data:
-This element of the main GUI allows users to search for and import data using the native file explorer. Simple click "Load Data" to open the file explorer and navigate to the desired file (see section below for data-file constraints).
+This element of the main GUI allows users to search for and import data using the native file explorer. Simply click "Load Data" to open the file explorer and navigate to the desired file (see section below for data-file constraints).
 2.	Available Data:
 This section shows the available data columns that were imported from the data file selected by the user in "Load Data". There are two columns denoting the independent (x-axis) and dependent (y-axis) variables that will be plotted.
 3.	Plot Data:
 This GUI element allows the user to set the plot properties, set the data style, plot the data, and change the plot pixel size. Note that all user input fields (QLineEdits) are cleared when switching independent or dependent variables (under "Available Data"). If no input parameters are given, default parameters are chosen and displayed in the input fields.
 4.	Trace Data:
-This component is used to set the plot properties and data style for each trace frame, generate the trace frames, set the relevant parameters for the animation GIF, and generated the animation GIF. Note that all user input fields (QLineEdits) are cleared when switching independent or dependent variables (under "Available Data"). If no input parameters are given, default parameters are chosen and displayed in the input fields.
+This component is used to set the plot properties and data style for each trace frame, generate the trace frames, set the relevant parameters for the animation GIF, and generate the animation GIF. Note that all user input fields (QLineEdits) are cleared when switching independent or dependent variables (under "Available Data"). If no input parameters are given, default parameters are chosen and displayed in the input fields.
 
 # Data-file constraints:
 	
