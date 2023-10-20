@@ -2,17 +2,17 @@
 A GUI for creating GIFs that trace along user input data
 
 # To run the included python file, the following packages are required (links to anaconda):
-* pandas (https://anaconda.org/anaconda/pandas)
 * glob (https://anaconda.org/conda-forge/glob2)
+* matplotlib (https://anaconda.org/conda-forge/matplotlib)
 * numpy (https://anaconda.org/anaconda/numpy)
 * os (https://anaconda.org/jmcmurray/os)
+* pandas (https://anaconda.org/anaconda/pandas)
 * pathlib (https://anaconda.org/conda-forge/pathlib)
-* tqdm (https://anaconda.org/conda-forge/tqdm)
 * PIL (https://anaconda.org/anaconda/pillow)
-* sys (automatically included)
-* matplotlib (https://anaconda.org/conda-forge/matplotlib)
 * PyQt5 (https://anaconda.org/anaconda/pyqt)
 * re (automatically included)
+* sys (automatically included)
+* tqdm (https://anaconda.org/conda-forge/tqdm)
 
 # List of GUI functions:
 1.	Load Data:
